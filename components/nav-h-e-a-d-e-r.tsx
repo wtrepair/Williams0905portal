@@ -7,25 +7,25 @@ export type NavHEADERType = {
 
 const NavHEADER: NextPage<NavHEADERType> = ({ className = "" }) => {
   const onPlumbingTextClick = useCallback(() => {
-    window.open("https://williams-plumbing-solutions.vercel.app/");
+    window.open("https://william0905-plumbing.vercel.app/");
   }, []);
 
   const onSepticTextClick = useCallback(() => {
-    window.open("https://williams-septic.vercel.app/");
+    window.open("https://william0905-septic.vercel.app/");
   }, []);
 
   const onWaterTreatmentTextClick = useCallback(() => {
     window.open(
-      "https://https://williams-plumbing-solutions.vercel.app/water-treatment"
+      "https://william0905-plumbing.vercel.app/water-treatment"
     );
   }, []);
 
   const onExcavationAggregateClick = useCallback(() => {
-    window.open("https://williamsexcavation.vercel.app/");
+    window.open("https://wiliams0905-excavation.vercel.app/");
   }, []);
 
   const onLoggingClick = useCallback(() => {
-    window.open("https://williamslogging.vercel.app/");
+    window.open("https://wiliams0905-logging.vercel.app/");
   }, []);
 
   const onContactButtonClick = useCallback(() => {

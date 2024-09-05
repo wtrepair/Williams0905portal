@@ -17,7 +17,7 @@ const NavigationFooter: NextPage<NavigationFooterType> = ({
   }, []);
 
   const onSolutionsClick = useCallback(() => {
-    window.open("https://williamssolutionpro.vercel.app/");
+    window.open("https://williams0509portal.vercel.app/");
   }, []);
 
   const onButtonsIconClick1 = useCallback(() => {
@@ -29,26 +29,26 @@ const NavigationFooter: NextPage<NavigationFooterType> = ({
   }, []);
 
   const onPlumbingSolutionsTextClick = useCallback(() => {
-    window.open("https://williams-plumbing-solutions.vercel.app/");
+    window.open("https://william0905-plumbing.vercel.app/");
   }, []);
 
   const onSepticTextClick = useCallback(() => {
-    window.open("https://williams-septic.vercel.app/");
+    window.open("https://william0905-septic.vercel.app/");
   }, []);
 
   const onWaterTreatmentTextClick = useCallback(() => {
     window.open(
-      "https://williams-plumbing-solutions.vercel.app/water-treatment"
+      "https://william0905-plumbing.vercel.app/water-treatment"
     );
   }, []);
   const onExcavationTextClick = useCallback(() => {
     window.open(
-      "https://williamsexcavation.vercel.app"
+      "https://https://wiliams0905-excavation.vercel.app/"
     );
   }, []);
   const onLoggingTextClick = useCallback(() => {
     window.open(
-      "https://williamslogging.vercel.app/"
+      "https://wiliams0905-logging.vercel.app/"
     );
   }, []);
 
@@ -65,7 +65,7 @@ const NavigationFooter: NextPage<NavigationFooterType> = ({
   }, []);
 
   const onBlogTextClick = useCallback(() => {
-    window.open("https://blog-delta-three-74.vercel.app/");
+    window.open("https://williams0905-blog.vercel.app/");
   }, []);
 
   return (

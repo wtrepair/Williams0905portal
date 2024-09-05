@@ -8,25 +8,25 @@ export type ServicesType = {
 
 const Services: NextPage<ServicesType> = ({ className = "" }) => {
   const onCard1ContainerClick = useCallback(() => {
-    window.open("https://williams-plumbing-solutions.vercel.app/");
+    window.open("https://william0905-plumbing.vercel.app/");
   }, []);
 
   const onCard4ContainerClick = useCallback(() => {
     window.open(
-      "https://williams-plumbing-solutions.vercel.app/water-treatment"
+      "https://william0905-plumbing.vercel.app//water-treatment"
     );
   }, []);
 
   const onCard3ContainerClick = useCallback(() => {
-    window.open("https://williams-septic.vercel.app/");
+    window.open("https://william0905-septic.vercel.app/");
   }, []);
 
   const onCard2ContainerClick = useCallback(() => {
-    window.open("https://williamsexcavation.vercel.app/");
+    window.open("https://wiliams0905-excavation.vercel.app/");
   }, []);
 
   const onCard5ContainerClick = useCallback(() => {
-    window.open("https://williamslogging.vercel.app/");
+    window.open("https://wiliams0905-logging.vercel.app/");
   }, []);
 
   return (
