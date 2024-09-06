@@ -15,7 +15,7 @@ const HeroSection: NextPage<HeroSectionType> = ({ className = "" }) => {
           Your Trusted Partner in Premium Waterworks, Excavation, and Logging
           Services.
         </h1>
-        <div className="self-stretch relative text-base-8 leading-[26px] text-justify">{`At Williams Solutions, we take pride in serving from Kirkland Lake to Temiskaming Shores we offer top-tier waterworks, excavation, aggregate, and logging services. Our commitment to quality and reliability ensures that every project we undertake is executed with precision and care, providing you with solutions that stand the test of time.`}</div>
+        <div className="self-stretch relative text-base-8 leading-[26px] text-justify">{`At Williams Solutions.Pro, we take pride in offering top-tier waterworks, excavation, aggregate, and logging services from Kirkland Lake to Temiskaming Shores. Our commitment to quality and reliability ensures that every project we undertake is executed with precision and care, providing you with solutions that stand the test of time.`}</div>
       </div>
       <div className=" max-w-[448px] bg-white overflow-hidden shrink-0 flex flex-row items-start justify-start flex-wrap content-start min-w-[448px] min-h-[328px] mq1275:flex-1">
         <img
