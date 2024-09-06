@@ -7,7 +7,7 @@ function MyApp({ Component, pageProps }: AppProps) {
   return (
     <Fragment>
       <Head>
-        <title>Portal</title>
+        <title>Williams Solutions.Pro</title>
         <link rel="shortcut icon" href="williams20logo3transparent20bgroundpng@2x.png" />
         <meta
           name="viewport"
