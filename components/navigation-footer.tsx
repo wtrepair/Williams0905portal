@@ -43,7 +43,7 @@ const NavigationFooter: NextPage<NavigationFooterType> = ({
   }, []);
   const onExcavationTextClick = useCallback(() => {
     window.open(
-      "https://https://wiliams0905-excavation.vercel.app/"
+      "https://wiliams0905-excavation.vercel.app/"
     );
   }, []);
   const onLoggingTextClick = useCallback(() => {
