@@ -152,7 +152,7 @@ const Header1: NextPage<Header1Type> = ({
             onClick={onContactButtonClick}
           >
             <a className="relative text-base-8 leading-[25.6px] font-bold font-small-text text-white text-center">
-              Contact Us Today
+              Request Form
             </a>
           </button>
         </nav>
