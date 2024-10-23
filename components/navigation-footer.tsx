@@ -115,7 +115,7 @@ const NavigationFooter: NextPage<NavigationFooterType> = ({
             onClick={onButtonsIconClick2}
           />
         </div>
-        {<!-- New link below the logo -->}
+        {/*<!-- New link below the logo -->*/}
           <div className="relative leading-[150%] font-medium cursor-pointer" onClick={onNewLinkClick}>
     CLIENT PORTAL
           </div>
