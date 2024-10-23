@@ -115,10 +115,7 @@ const NavigationFooter: NextPage<NavigationFooterType> = ({
             onClick={onButtonsIconClick2}
           />
         </div>
-        {/*<!-- New link below the logo -->*/}
-          <div className="relative leading-[150%] font-medium cursor-pointer" onClick={onNewLinkClick}>
-    CLIENT PORTAL
-          </div>
+       
       </div>
       <div className="w-[187px] flex flex-col items-start justify-start gap-6">
         <b className="self-stretch relative leading-[150%]">
@@ -204,6 +201,10 @@ const NavigationFooter: NextPage<NavigationFooterType> = ({
               <div className="relative leading-[25.6px] font-semibold whitespace-nowrap">
               info@williamssolutions.pro
               </div>
+               {/*<!-- New link below the logo -->*/}
+          <div className="relative leading-[150%] font-medium cursor-pointer" onClick={onNewLinkClick}>
+    CLIENT PORTAL
+          </div>
             </div>
           </div>
         </div>
