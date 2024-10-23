@@ -202,10 +202,11 @@ const NavigationFooter: NextPage<NavigationFooterType> = ({
               info@williamssolutions.pro
               </div>
                {/*<!-- New link below the logo -->*/}
+          
+            </div>
+          </div>
           <div className="relative leading-[150%] font-medium cursor-pointer" onClick={onNewLinkClick}>
     CLIENT PORTAL
-          </div>
-            </div>
           </div>
         </div>
         <div className="relative leading-[24px] text-dark-blue inline-block max-w-full">
