@@ -184,9 +184,12 @@ const NavigationFooter: NextPage<NavigationFooterType> = ({
                 alt=""
                 src="/solarphonelinear.svg"
               />
-              <div className="flex-1 relative leading-[26px] font-semibold whitespace-pre-wrap inline-block max-w-[calc(100%_-_57px)]">
-                Call Us: 705-492-8910
-              </div>
+              <div
+  className="flex-1 relative leading-[26px] font-semibold whitespace-pre-wrap inline-block max-w-[calc(100%_-_57px)]"
+  style={{ color: 'black', textDecoration: 'none' }}
+>
+  Call Us: 705-492-8910
+</div>
             </div>
             <div className="self-stretch flex flex-row items-center justify-start gap-[20.8px] mq450:flex-wrap">
               <img
