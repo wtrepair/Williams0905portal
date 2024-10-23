@@ -8,6 +8,10 @@ export type NavigationFooterType = {
 const NavigationFooter: NextPage<NavigationFooterType> = ({
   className = "",
 }) => {
+  const onNewLinkClick = useCallback(() => {
+  window.open("https://clienthub.getjobber.com/client_hubs/c6ab68fa-74c2-4d46-9066-ff2210b88264/login/new?source=share_login");
+}, []);
+  
   const onSocialIconsContainerClick = useCallback(() => {
     window.open("https://ca.linkedin.com/in/williams-plumbing-solution");
   }, []);
@@ -111,6 +115,10 @@ const NavigationFooter: NextPage<NavigationFooterType> = ({
             onClick={onButtonsIconClick2}
           />
         </div>
+        <!-- New link below the logo -->
+          <div className="relative leading-[150%] font-medium cursor-pointer" onClick={onNewLinkClick}>
+    CLIENT PORTAL
+          </div>
       </div>
       <div className="w-[187px] flex flex-col items-start justify-start gap-6">
         <b className="self-stretch relative leading-[150%]">
