@@ -205,9 +205,21 @@ const NavigationFooter: NextPage<NavigationFooterType> = ({
           
             </div>
           </div>
-          <div className="relative leading-[150%] font-medium cursor-pointer" onClick={onNewLinkClick}>
-    CLIENT PORTAL
-          </div>
+          <div
+  className="relative leading-[150%] font-medium cursor-pointer"
+  style={{ color: 'black', textDecoration: 'none' }}
+  onClick={onNewLinkClick}
+  onMouseEnter={(e) => {
+    e.currentTarget.style.color = 'blue';
+    e.currentTarget.style.textDecoration = 'underline';
+  }}
+  onMouseLeave={(e) => {
+    e.currentTarget.style.color = 'black';
+    e.currentTarget.style.textDecoration = 'none';
+  }}
+>
+  CLIENT PORTAL
+</div>
         </div>
         <div className="relative leading-[24px] text-dark-blue inline-block max-w-full">
           © Williams Solutions.Pro 2024. All rights reserved.
