@@ -1,0 +1,99 @@
+{
+  "redirects": [
+    {
+      "source": "/:path*",
+      "has": [{"type": "host", "value": "www.williamseptic.ca"}],
+      "destination": "https://williamssolutions.pro/septic",
+      "permanent": true
+    },
+    {
+      "source": "/:path*",
+      "has": [{"type": "host", "value": "williamseptic.ca"}],
+      "destination": "https://williamssolutions.pro/septic",
+      "permanent": true
+    },
+    {
+      "source": "/:path*",
+      "has": [{"type": "host", "value": "www.williamsplumbingsolutions.com"}],
+      "destination": "https://williamssolutions.pro/plumbing",
+      "permanent": true
+    },
+    {
+      "source": "/:path*",
+      "has": [{"type": "host", "value": "www.williamsplumbing.ca"}],
+      "destination": "https://williamssolutions.pro/plumbing",
+      "permanent": true
+    },
+    {
+      "source": "/:path*",
+      "has": [{"type": "host", "value": "williamsplumbing.ca"}],
+      "destination": "https://williamssolutions.pro/plumbing",
+      "permanent": true
+    },
+    {
+      "source": "/:path*",
+      "has": [{"type": "host", "value": "www.williamsplumbingsolution.ca"}],
+      "destination": "https://williamssolutions.pro/plumbing",
+      "permanent": true
+    },
+    {
+      "source": "/:path*",
+      "has": [{"type": "host", "value": "williamsplumbingsolution.ca"}],
+      "destination": "https://williamssolutions.pro/plumbing",
+      "permanent": true
+    },
+    {
+      "source": "/:path*",
+      "has": [{"type": "host", "value": "www.williamswater.ca"}],
+      "destination": "https://williamssolutions.pro/water-treatment",
+      "permanent": true
+    },
+    {
+      "source": "/:path*",
+      "has": [{"type": "host", "value": "williamswater.ca"}],
+      "destination": "https://williamssolutions.pro/water-treatment",
+      "permanent": true
+    },
+    {
+      "source": "/:path*",
+      "has": [{"type": "host", "value": "www.williamssolutions.pro"}],
+      "destination": "https://williamssolutions.pro/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/:path*",
+      "has": [{"type": "host", "value": "www.williamsplumbingsolutions.ca"}],
+      "destination": "https://williamssolutions.pro/",
+      "permanent": true
+    },
+    {
+      "source": "/:path*",
+      "has": [{"type": "host", "value": "williamssolutions.ca"}],
+      "destination": "https://williamssolutions.pro/",
+      "permanent": true
+    }
+  ],
+  "headers": [
+    {
+      "source": "/estimate/",
+      "headers": [
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "https://jobber.kisstech.ca"
+        },
+        {
+          "key": "Access-Control-Allow-Methods",
+          "value": "GET, OPTIONS"
+        },
+        {
+          "key": "Access-Control-Allow-Headers",
+          "value": "Content-Type"
+        },
+        {
+          "key": "Access-Control-Allow-Credentials",
+          "value": "true"
+        }
+      ]
+    }
+  ]
+}
